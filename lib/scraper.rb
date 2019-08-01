@@ -21,7 +21,7 @@ class Scraper
     doc.each do |element|
       new_course = Course.new
       new_course.title = element.css("h2")
-      binding.pry
+      #binding.pry
     end
   end
   
