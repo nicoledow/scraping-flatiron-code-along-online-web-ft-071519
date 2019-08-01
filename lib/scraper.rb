@@ -12,7 +12,7 @@ class Scraper
   
   #uses CSS selector to grab HTML elements containing a course
   def get_courses
-    get_page.css("post same-height-right")
+    get_page.css(".post same-height-right")
   end
   
   #instantiates Course objects and gives them a title, schedule, description attribute scraped from the page
