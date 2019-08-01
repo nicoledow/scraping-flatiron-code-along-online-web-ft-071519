@@ -21,6 +21,7 @@ class Scraper
     doc.each do |element|
       new_course = Course.new
       new_course.title = element.css("h2").text
+      new_course.date = element.css(".date").text
       binding.pry
     end
   end
