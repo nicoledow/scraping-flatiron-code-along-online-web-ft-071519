@@ -20,7 +20,7 @@ class Scraper
     doc = get_courses
     doc.each do |element|
       new_course = Course.new
-      new_course.
+      new_course.title = element.css("h2")
       binding.pry
     end
   end
