@@ -34,9 +34,8 @@ class Scraper
       end
     end
   end
-  
+  make_courses
 end
 
-make_courses
 
 
