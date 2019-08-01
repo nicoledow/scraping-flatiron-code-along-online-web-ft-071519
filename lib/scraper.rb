@@ -18,7 +18,7 @@ class Scraper
   #instantiates Course objects and gives them a title, schedule, description attribute scraped from the page
   def make_courses
     doc = get_courses
-    doc.each do |ele|
+    doc.each do |ele, class|
       binding.pry
     end
   end
