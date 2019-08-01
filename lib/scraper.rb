@@ -19,9 +19,7 @@ class Scraper
   def make_courses
     doc = get_courses
     doc.each do |ele|
-      ele.each do |x|
       binding.pry
-      end
     end
   end
   
